@@ -2,7 +2,8 @@
   "description": "项目配置文件",
   "cloudbaseRoot": "cloud/",
   "packOptions": {
-    "ignore": []
+    "ignore": [],
+    "include": []
   },
   "setting": {
     "urlCheck": false,
@@ -44,18 +45,9 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.24.0",
-  "appid": "wxa7b525e104a5da53",
+  "appid": "wxbc66d5edb7ccdcc7",
   "projectname": "music",
-  "debugOptions": {
-    "hidedInDevtools": []
-  },
-  "scripts": {},
-  "staticServerOptions": {
-    "baseURL": "",
-    "servePath": ""
-  },
-  "isGameTourist": false,
-  "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate/",
   "condition": {
     "search": {
       "list": []
@@ -75,5 +67,9 @@
     "miniprogram": {
       "list": []
     }
+  },
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
   }
 }

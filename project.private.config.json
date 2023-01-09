@@ -1,15 +1,8 @@
 {
-  "setting": {},
+  "setting": {
+    "compileHotReLoad": true
+  },
   "condition": {
-    "plugin": {
-      "list": []
-    },
-    "game": {
-      "list": []
-    },
-    "gamePlugin": {
-      "list": []
-    },
     "miniprogram": {
       "list": [
         {
@@ -82,10 +75,11 @@
           "name": "",
           "pathName": "pages/notice-page/index",
           "query": "type=1",
-          "scene": null,
-          "launchMode": "default"
+          "launchMode": "default",
+          "scene": null
         }
       ]
     }
-  }
+  },
+  "projectname": "jyt-miniprogram"
 }

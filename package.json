@@ -1,16 +1,24 @@
 {
   "name": "music-miniprogram",
   "version": "1.0.0",
-  "description": "",
+  "description": "一个简单交换学生闲置物品的小程序",
   "main": "app.js",
   "dependencies": {
-    "@vant/weapp": "^1.10.2",
-    "hy-event-store": "^1.2.1"
+    "@vant/weapp": "^1.10.11",
+    "hy-event-store": "^1.2.1",
+    "vant-weapp": "^0.5.29"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "chenzuoli",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenzuoli/ExchangeMiniprogram.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chenzuoli/ExchangeMiniprogram/issues"
+  },
+  "homepage": "https://github.com/chenzuoli/ExchangeMiniprogram#readme"
 }
